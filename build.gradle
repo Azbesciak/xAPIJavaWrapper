@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'pro.xstore.api'
+version '2.5.0'
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClass = 'org.gradle.sample.Main'
+}
+
+dependencies {
+    implementation fileTree(include: ["*.jar"], dir: "lib")
+    implementation fileTree(include: ["*.jar"], dir: "bin")
+}
