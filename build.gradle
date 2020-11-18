@@ -15,6 +15,6 @@ application {
 }
 
 dependencies {
-    compile fileTree(include: ["*.jar"], dir: "lib")
     compile fileTree(include: ["*.jar"], dir: "bin")
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
 }
