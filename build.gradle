@@ -15,6 +15,6 @@ application {
 }
 
 dependencies {
-    implementation fileTree(include: ["*.jar"], dir: "lib")
-    implementation fileTree(include: ["*.jar"], dir: "bin")
+    compile fileTree(include: ["*.jar"], dir: "lib")
+    compile fileTree(include: ["*.jar"], dir: "bin")
 }
