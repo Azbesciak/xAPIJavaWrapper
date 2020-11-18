@@ -13,6 +13,6 @@ repositories {
 
 dependencies {
     ...
-    implementation 'com.github.Azbesciak:xAPIJavaWrapper:2.5.0'
+    implementation 'com.github.Azbesciak:xAPIJavaWrapper:2.5.0-1'
 }
 ```
